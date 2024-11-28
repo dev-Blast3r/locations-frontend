@@ -24,5 +24,30 @@ Este proyecto es la interfaz gráfica del sistema de gestión de ubicaciones (lo
 ## Instalación
 
 1. Clona el repositorio:
-      git clone https://github.com/tu-usuario/locations-frontend.git
-   cd locations-frontend
+    git clone https://github.com/tu-usuario/locations-frontend.git
+    cd locations-frontend
+
+2. Instala las dependencias:
+    npm install
+
+3. Crea un archivo .env basado en el ejemplo proporcionado:
+    REACT_APP_API_URL=http://127.0.0.1:8000/api
+    REACT_APP_API_KEY=secret123
+
+4. Ejecución del proyecto
+    Para iniciar la aplicación en modo de desarrollo:
+    npm start
+    La aplicación estará disponible en http://localhost:3000.
+
+5. Pruebas
+    Ejecuta las pruebas unitarias:
+    npm test
+
+6. Deploy
+    Genera el build de producción:
+    npm run build
+
+7. Sube la carpeta build al servidor o plataforma de hosting que prefieras (por ejemplo, Netlify o Vercel).
+
+8. Contacto
+    Si tienes preguntas o sugerencias, por favor abre un issue en el repositorio.
